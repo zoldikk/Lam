@@ -34,7 +34,7 @@ function remainingTime(endDateStr) {
 
 // Function to check task by name
 async function tmy(taskName) {
-    const tasks = await fetchTasksFromUrl("https://pastebin.com/raw/FBkmadyt");
+    const tasks = await fetchTasksFromUrl("https://pastebin.com/raw/82uG38wU");
     for (const [name, endDate] of tasks) {
         if (name === taskName) {
             return remainingTime(endDate);
